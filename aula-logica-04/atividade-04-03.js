@@ -7,12 +7,14 @@
 // * * * * *
 var user = require('readline-sync')
 var numero = user.question('Digite um numero:')
-for (var i = 0; i <= numero; i++) {
-    let estrelas = ''
-    for (let index = 0; index < i; index++) {
-        estrelas += '*'
-
-    }
+var estrelas = ''
+var j = 1;
+while (j <= numero) {
+    estrelas += '*'
     console.log(estrelas)
+    j++
+
 }
+
+
 

@@ -8,18 +8,33 @@
 // O aluno João da Silva tem uma média:5.7
 
 var user = require('readline-sync')
-var nomeAluno
-var notaA
-var notaB
-var totalNotaA
-var totalNotaB
-for (var i = 0; i < 5; i++) {
-    nomeAluno = user.question('Nome Aluno:')
-    notaA = user.question('Nota A:')
-    notaB = user.question('Nota B:')
-    totalNotaA = notaA * 0.30
-    totalNotaB = notaB * 0.70
-    media = (Number(totalNotaA)+Number(totalNotaB)) / 2
-    console.log(`O aluno ${nomeAluno} tem media: ${media}`)
+//array de armazenamento
+var alunos = []
+var notasA = []
+var notasB = []
+var mediaPonderada
 
+
+
+for (var i = 0; i < 5; i++) {
+    //pedir dados do usuario
+    var nomeAluno = user.question('Nome Aluno:')
+    var notaA = user.questionFloat('Nota A:')
+    var notaB = user.questionFloat('Nota B:')
+
+    //calculo media ponderada
+    //var media = (notaA * 0.3) + (notaB * 0.7)
+    //console.log(`O aluno ${nomeAluno} tem media: ${media}`)
+
+    alunos.push(nomeAluno)
+    notasA.push(notaA)
+    notasB.push(notaB)
+
+}
+
+for (var j = 0; j < 5; j++) {
+    console.log(`Nome do aluno: ${alunos[j]}\n
+    Nota prova B: ${notasA[j]}\n
+    Nota prova A: ${notasB[j]}\n
+    Media ponderada do aluno: ${(notasA[j] * 0.3) + (notasB[j] * 0.7)}\n`)
 }
