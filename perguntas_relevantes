@@ -1,0 +1,266 @@
+HTML
+Quais são as linguagens que um browser interpreta ao abrir uma página web?
+# HTML , CSS e JAVASCRIPT
+
+O que são e para que servem meta tags?
+#SEO- para o robor ler
+#SEMANTICA- google classificar
+
+Quais são as tags mínimas que costumamos encontrar em um documento HTML? Para que servem?
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+#terminar
+
+Quais tags HTML vocês conhecem?
+#<h1><p><ul><li><ol><header><footer><a>
+terminr pq tem muitas
+
+Como eu aplico um estilo no meu site HTML?
+#pode ser de fora 
+ou de dentro <style>
+
+Como eu importo um script CSS para a minha página HTML?
+<link>
+Como eu importo um script javascript para minha página HTML?
+<script>
+Como eu adiciono uma imagem no meu site? Como eu adiciono um link no meu site?
+<a href="site" >
+<img src="caminho da imgem" width="30" heigt="80">
+</a>
+O que é um atributo de uma tag html?
+
+CSS
+Qual é a estrutura da linguagem CSS?
+body{
+    propriedade1:valor;
+    propriedade2: valor;
+}
+Como eu faço para mudar a cor de todos os meus h1 para azul?
+h1{
+    color:blue; 
+}
+E se eu quiser que só alguns dos h1 fique azul?
+h1.classe{
+    color:blue;
+}
+Quais são as maneiras com as quais podemos representar cores em CSS?
+rgba(0,0,255) azul
+#0000ff
+O que são frameworks CSS?
+estrutura para nossa pagina, esqueleto
+Quais são 3 frameworks CSS famosos utilizados atualmente?
+bootstrap
+foundation
+materializa
+
+No exemplo que fizemos do bootstrap, como eu posso alterar as cores dos textos e fundo?
+importa para o arquipo
+npm i freelancer-bootstrap
+criar un css que eu consiga mexer
+
+Como faço para "inspecionar elemento" no google chrome?
+inspecionar
+ctrl i
+
+SEO + Analytics
+O que é SEO?
+>>>>>>>>>>>>>>>>>>>>>>>
+
+Qual é a diferença de tráfego pago para tráfego orgânico?
+#organico-o que foi construido com raça, com uma estrutura boa que faz com que o seo ache
+#pago - o site paga para melhor visualizaçao (tem um ad ao lado da propaganda), eles pagam por clique, onde eu vejo quanto custou? no site do velho
+new partner
+
+Para que serve o google analytics?
+monitora o site, quantidade de acesso, de onde a pessoa acessou, quentas pessoas acessaram, cidade de onde a pessoa acessou
+graficos
+
+Como eu faço para colocar o google analytics no meu site?
+>>>>>
+copia o link do git 
+e coloca a 
+
+Redes sociais
+O que é o Github?
+rede social
+repositorio para codigo
+
+O que é o Stackoverflow?
+forum de solução de problemas
+google para o programador
+
+O que é o MeetUp?
+reunião para network
+
+Quem foi em algum MeetUp no mês de fevereiro?
+eu nao... 2 pessoas na sala
+Como fizemos para hospedar nossa página publicamente no github?
+>>>>>>>>>
+criar repositorio
+configurações
+github page
+copia o link
+
+GIT 
+O que é o GIT?
+controlador de versionamento
+sistema de versionamento
+acompanha verões de um codigo, as alterações
+meu repositorio vai ter uma pasta oculta (.git )
+posso ter repositorio local e na nuvem
+
+Como eu faço para copiar um repositório que está disponível no github?
+git clone + link do repositorio
+
+Como eu faço para deixar minha cópia local do trabalho salva no github?
+git push oigin master ou o nome da branch
+
+O que é uma mensagem de commit?
+o que eu fiz , modifiquei
+
+Qual é a diferença de commit para push?
+commit salva no repositorio local 
+push manda p master, nuvem
+
+Como eu crio um novo repositório do zero na minha máquina?
+cd .\nome d pasta\
+git init
+ele vai inicializar um repositorio no git
+ls posso listar o que tem dentro
+
+Lógica de programação e Javascript:
+Logica:
+O que é uma linguagem de programação?
+conjunto de instruções
+
+Como o código é executado?
+>>>>>
+Como posso bifurcar o meu código?
+if(){
+}else{
+
+}
+if(){
+
+}else if(){
+
+}
+a condição so pode ter dois valores: true e false
+
+Como posso executar mais de uma vez uma parte do meu código?
+com laços de repetição/loops
+While(enquanto a condição for verdadeira){
+
+}
+for(){
+
+}
+
+O que é uma variável?
+um espaço reservado na memoria para tal coisa
+
+Como eu crio uma nova variável?
+var nome = alguma coisa ou vazia
+ou so 
+var nome
+
+Como eu posso assinalar um novo valor a uma variável?
+var nome = luciana
+= operador de atribuição
+
+O que são tipos primitovos de variáveis em javascript?
+string: nome, frase
+numeros: int
+booleanos: true , false
+nulos: nao possui valor(null, undefined)
+object:arrays
+
+Como posso checar o tipo de uma variável?
+typeof nome_da_variavel
+
+O que é uma variável booleana?
+uma variavel que recebe somente dois valores possiveis : true e false
+
+Como eu posso comparar duas variáveis?
+==
+
+Qual é a diferença entre comparar com === ou com ==?
+=== compara valor e tipo
+== compara valor
+
+O que é o operador negação?
+!== testa o tipo 
+!= testa só o conteudo
+! não de alguma coisa
+inverte o valor de um booleano
+
+O que é um contador?
+nome_da_variavel++
+ou
+nome_da_variavel = nome_da_variavel + 1
+
+O que significa "atualizar o contador"?
+>>>>>>>> 
+
+Para que serve o comando break?
+para parar um comando
+vai para a primeira minha depois do comando
+
+Qual é a diferença entre um While e um For?
+estrutura
+
+Para que serve cada parte de um For loop?
+inicializar contador
+condição
+crementar
+
+Como eu faço para saber se um número é par?
+numero % 2 == 0
+
+Como eu faço para saber se um número é divisível por outro?
+numero % numero2 == 0
+
+Como eu faço para saber se um número é PRIMO?
+numero primo só é divisivel por 1 e por ele mesmo
+
+Como eu faço para obter um input de um usuário no terminal?
+readline-sync, npm i readline-sync
+
+Como eu faço para importar um módulo em javascript?
+var user = require('readline-sync)//
+var nome = user.question('pergunta)//quarda a resposta em algum lugar na memoria
+/////////////pedir ajuda
+O que é JSON?
+aruivo de texto, maneira, notaçao de objetos em js , que serve para serealizar o que na menoria jogado
+
+Como eu faço para salvar um objeto num arquivo texto no meu computador no formato JSON?
+var fs =require('fs)
+fs.writefilesync(path, serializado)
+JSON.stringify('obj')
+Como eu faço para ler um JSON armazenado na minha máquina?
+O que é um array?
+Como eu acesso individualmente os valores da array?
+Como eu posso somar todos os valores numa array de números?
+O que é um objeto?
+Como eu posso acessar a propriedade de um objeto?
+O que é e para que serve uma função?
+O que é um argumento de uma função?
+Para que serve o retorno de uma função?
+Como eu posso checar se os caracteres de uma string são maiúsculos ou minúsculos?
+
+Erros comuns
+O que está errado na expressão abaixo?
+if(name = "Rafael"){
+    console.log('O nome dele é Rafael')
+}
+tudo..... nome == "
