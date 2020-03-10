@@ -1,0 +1,18 @@
+{
+  "name": "aula-modulo-09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "atividade-09-01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luciana Alves <luh.ana.af@gmail.com> (https://github.com/luh-alves/)",
+  "license": "MIT",
+  "dependencies": {
+    "age-calculator": "^1.0.0",
+    "fasam-imc-calc": "0.0.4",
+    "is-odd": "3.0.1",
+    "median": "0.0.2",
+    "prime-number": "^1.0.2"
+  }
+}
