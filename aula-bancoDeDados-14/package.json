@@ -1,0 +1,16 @@
+{
+  "name": "aula-bancodedados-14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "carros-repositor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luciana Alves <luh.ana.af@gmail.com> (https://github.com/luh-alves/)",
+  "license": "MIT",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "sqlite": "^3.0.3",
+    "sqlite3": "^4.1.1"
+  }
+}
