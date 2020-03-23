@@ -1,0 +1,16 @@
+{
+  "name": "atividade-corona",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luciana Alves <luh.ana.af@gmail.com> (https://github.com/luh-alves/)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "sqlite": "^3.0.3",
+    "table": "^5.4.6"
+  }
+}
