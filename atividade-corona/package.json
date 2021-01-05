@@ -9,7 +9,7 @@
   "author": "Luciana Alves <luh.ana.af@gmail.com> (https://github.com/luh-alves/)",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "sqlite": "^3.0.3",
     "table": "^5.4.6"
   }
